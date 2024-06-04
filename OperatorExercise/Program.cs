@@ -6,15 +6,16 @@ namespace OperatorExercise
     {
         static void Main(string[] args)
         {
+            int a = 17;
+            int b = 4;
 
+            //excercise 1
+            Console.WriteLine(Addition(a, b));          
+            Console.WriteLine(Subtraction(a, b));
+            Console.WriteLine(Multplication(a, b));
+            Console.WriteLine(DivisionAndModulus(a, b));
 
-
-            //Console.WriteLine(Addition(17, 4));          
-            //Console.WriteLine(Subtraction(17, 4));
-            //Console.WriteLine(Multplication(17, 4));
-            //Console.WriteLine(DivisionAndModulus(17, 4));
-
-         
+            //exercise 2
             double radius = double.Parse(GetUserInput("Please enter a radius: "));         
             AreaOfCircle(radius);
             Console.ReadLine();
